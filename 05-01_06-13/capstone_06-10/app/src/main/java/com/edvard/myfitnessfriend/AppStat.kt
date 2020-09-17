@@ -1,0 +1,31 @@
+package com.edvard.myfitnessfriend
+
+
+class AppStat {
+
+    companion object{
+        var myStat:User = User("")
+        var friendList = ArrayList<User>()
+        var introPlaying = false
+        var currentExerciseTime: Long = 0
+
+        var isExercising:Boolean = false
+
+        var exerciseStartTime: Long = 0
+        fun clear(){
+            myStat.setUserId("")
+            myStat.setIsLogin(false)
+            myStat.setTodayCal(0f)
+            myStat.setTodayTime(0f)
+            myStat.setWeekCal(0f)
+            myStat.setWeekTime(0f)
+            myStat.setMonthCal(0f)
+            myStat.setMonthTime(0f)
+            myStat.setUserWeight(0f)
+            myStat.getWeekCalorie().clear()
+            myStat.getWeekTimeList().clear()
+            myStat.getFriendWeekCalorie().clear()
+            friendList.clear()
+        }
+    }
+}

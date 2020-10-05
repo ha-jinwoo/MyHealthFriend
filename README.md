@@ -45,6 +45,6 @@ index|0|1|2|3|4|5|6|7|8|9|10|11|12|13|
 
 mDrawPoint&#60;PointF&#62; ArrayList
   
-이 좌푯값의 __상관관계를 적절하게 이용하면__ 사용자의 잘못된 운동 자세에 대한 실시간 피드백을 구현할 수 있다.
+__이 좌푯값의 상관관계를 적절하게 이용하면__ 사용자의 잘못된 운동 자세에 대한 실시간 피드백을 구현할 수 있다.
 
 구체적 코드 + 알고리즘 설명 : [자동 자세 교정 알고리즘](https://github.com/ha-jinwoo/CapStone-APP-ResultVideo/blob/master/%EC%9E%90%EC%84%B8%EA%B5%90%EC%A0%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.pdf)

@@ -48,3 +48,11 @@ mDrawPoint&#60;PointF&#62; ArrayList
 __이 좌푯값의 상관관계를 적절하게 이용하면__ 사용자의 잘못된 운동 자세에 대한 실시간 피드백을 구현할 수 있다.
 
 구체적 코드 + 알고리즘 설명 : __[자동 자세 교정 알고리즘](https://github.com/ha-jinwoo/CapStone-APP-ResultVideo/blob/master/%EC%9E%90%EC%84%B8%EA%B5%90%EC%A0%95%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98.pdf)__
+
+## DB 구축
+
+1.친구추가 기능 
+
+2.운동량 통계
+
+1일, 1주일, 한 달간 소모한 칼로리와 운동 시간을 저장하고 시스템 시간과 트리거를 활용하여 일정 시간 마다 초기화와 업데이트를 하도록 하였습니다.

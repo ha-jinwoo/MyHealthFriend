@@ -8,7 +8,7 @@ buildscript {
 
     ext.versions = [
         'supportLibrary': '27.1.1',
-        'kotlin': '1.3.10'
+        'kotlin': '1.9.20'
     ]
 
     ext.deps = [
@@ -34,11 +34,11 @@ buildscript {
     ]
 
     repositories {
-        jcenter()
+        mavenCentral()
         google()
     }
     dependencies {
-        classpath 'com.android.tools.build:gradle:3.6.3'
+        classpath 'com.android.tools.build:gradle:7.4.2'
         classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:${versions.kotlin}"
     }
 }
